@@ -56,6 +56,8 @@ gem 'friendly_id', '~> 5.2.0'
 gem 'devise', '~> 4.5'
 
 gem 'bootstrap', '~> 4.0'
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 4.3'
 
 gem 'brina_view_tool', git: 'https://github.com/bmbrina/brina_view_tool'
+
+gem 'petergate', '~> 1.9'
