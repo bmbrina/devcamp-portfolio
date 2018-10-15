@@ -54,5 +54,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Tutorial Gems
 gem 'friendly_id', '~> 5.2.0'
 gem 'devise', '~> 4.5'
+
 gem 'bootstrap', '~> 4.0'
 gem 'jquery-rails'
+
+gem 'brina_view_tool', git: 'https://github.com/bmbrina/brina_view_tool'
