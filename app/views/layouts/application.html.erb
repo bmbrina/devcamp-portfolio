@@ -16,7 +16,9 @@
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <%= render 'shared/application_nav' %>
 
-      <%= yield %>
+      <main role="main" class="inner cover">
+        <%= yield %>
+      </main>
 
       <%= render 'shared/application_footer' %>
 
