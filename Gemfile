@@ -53,6 +53,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Tutorial Gems
 gem 'friendly_id', '~> 5.2.0'
+
+# Authentication
 gem 'devise', '~> 4.5'
 
 gem 'bootstrap', '~> 4.0'
@@ -60,6 +62,10 @@ gem 'jquery-rails', '~> 4.3'
 
 gem 'brina_view_tool', git: 'https://github.com/bmbrina/brina_view_tool'
 
+# User roles
 gem 'petergate', '~> 1.9'
 
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
+
+# Pagination
+gem 'kaminari', '~> 1.1', '>= 1.1.1'
