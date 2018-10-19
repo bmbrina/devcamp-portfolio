@@ -1,11 +1,22 @@
-<%= image_tag @portfolio_item.main_image if @portfolio_item.main_image %>
-<h1><%= @portfolio_item.title %></h1>
-<em><%= @portfolio_item.subtitle %></em>
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+      <%= image_tag @portfolio_item.main_image if @portfolio_item.main_image %>
+    </div>
+    <div class="col-md-5">
+      <h1><%= @portfolio_item.title %></h1>
 
-<p><%= @portfolio_item.body %></p>
+      <hr>
 
-<h2>Technologies Used:</h2>
-<% @portfolio_item.technologies.each do | technology | %>
-  <p><%= technology.name %></p>
-<% end %>
- 
+      <em><%= @portfolio_item.subtitle %></em>
+      <p><%= @portfolio_item.body %></p>
+
+      <hr>
+
+      <h3>Technologies Used:</h3>
+      <% @portfolio_item.technologies.each do | technology | %>
+        <p><%= technology.name %></p>
+      <% end %>
+    </div>
+  </div>
+</div>
