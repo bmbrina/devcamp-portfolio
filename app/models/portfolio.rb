@@ -7,6 +7,9 @@ class Portfolio < ApplicationRecord
 
   validates_presence_of :title, :body, :main_image, :thumb_image
 
+  mount_uploader :main_image, PortfolioUploader
+  mount_uploader :thumb_image, PortfolioUploader
+
   def self.react
     where(subtitle: "React")
   end
