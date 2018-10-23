@@ -70,3 +70,9 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 
 # Pagination
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
+
+# Image upload
+gem 'carrierwave', '~> 1.0'
+gem 'mini_magick', '~> 4.6'
+gem 'carrierwave-aws', '~> 1.0', '>= 1.0.2'
+gem 'dotenv-rails', '~> 2.1', '>= 2.1.2'

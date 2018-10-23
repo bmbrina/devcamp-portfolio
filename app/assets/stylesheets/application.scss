@@ -29,7 +29,6 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
 }
 body {
   color: #fff;
@@ -164,28 +163,47 @@ body {
  * Custom styles
  */
 
- .card {
+.card {
+ color: #000;
+ text-align: left;
+}
+
+.auth-links {
+ margin-top: 10px;
+
+ a {
    color: #000;
-   text-align: left;
  }
+}
 
- .auth-links {
-   margin-top: 10px;
+.text-right {
+ text-align: right;
+}
 
-   a {
-     color: #000;
-   }
- }
+.login > .card {
+ margin: 0 auto;
+ width: 22rem;
+}
 
- .text-right {
-   text-align: right;
- }
+.app-nav span {
+ margin-right: 15px;
+}
 
- .login > .card {
-   margin: 0 auto;
-   width: 22rem;
- }
+#background {
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ height: auto;
+ z-index: -100;
+ -webkit-transform: translateX(-50%) translateY(-50%);
+ transform: translateX(-50%) translateY(-50%);
+ background: image-url('home_bg.png') no-repeat;
+ background-size: cover;
+}
 
- .app-nav span {
-   margin-right: 15px;
- }
+.app-footer {
+  color: white;
+}
