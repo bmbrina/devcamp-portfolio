@@ -34,12 +34,14 @@
     <hr>
     <h2>Technologies used</h2>
 
-    <%= f.fields_for :technologies do | technology_form | %>
-      <div class="form-group">
-        <%= technology_form.label :name %>
-        <%= technology_form.text_field :name, class: "form-control" %>
+    <div>
+      <%= f.fields_for :technologies do | technology_form | %>
+        <%= render "technology_fields", f: technology_form %>
+      <% end %>
+      <div>
+        <%= link_to_add_association 'Add Technology', f, :technologies %>
       </div>
-    <% end %>
+    </div>
 
     <div class="actions">
       <%= f.submit 'Submit', class: "btn btn-primary btn-block" %>
