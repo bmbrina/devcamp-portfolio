@@ -157,7 +157,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 55rem;
+    width: 60rem;
   }
 }
 /*
@@ -175,6 +175,10 @@ body {
  a {
    color: #000;
  }
+}
+
+.text-center{
+ text-align: center;
 }
 
 .text-right {
@@ -207,4 +211,17 @@ body {
 
 .app-footer {
   color: white;
+}
+
+.tech-news {
+  color: #000;
+  margin: 10px;
+
+  .card {
+    padding: 15px;
+  }
+
+  a {
+    color: green;
+  }
 }
