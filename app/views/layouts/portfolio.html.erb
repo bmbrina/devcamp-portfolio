@@ -13,16 +13,11 @@
   </head>
 
   <body>
-
     <%= render 'shared/portfolios_nav' %>
-
     <%= render 'shared/portfolios_masthead' unless logged_in?(:site_admin)%>
-
     <%= yield %>
-
     <%= render 'shared/portfolios_footer' %>
-
+    <%= alerts %>
     <%= source_helper %>
-
   </body>
 </html>
