@@ -5,7 +5,6 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
 # Use postgresql as the database for Active Record
@@ -79,3 +78,6 @@ gem 'dotenv-rails', '~> 2.1', '>= 2.1.2'
 
 # Nested forms
 gem 'cocoon', '~> 1.2', '>= 1.2.9'
+
+# Alerts and notifications
+gem 'gritter', '~> 1.2'
