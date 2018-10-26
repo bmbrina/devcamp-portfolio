@@ -50,7 +50,7 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-# Tutorial Gems
+# Friendly url parser
 gem 'friendly_id', '~> 5.2.0'
 
 # Authentication
@@ -59,13 +59,12 @@ gem 'devise', '~> 4.5'
 gem 'bootstrap', '4.0.0.alpha6'
 gem 'jquery-rails', '~> 4.3'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 
 gem 'brina_view_tool', git: 'https://github.com/bmbrina/brina_view_tool'
 
 # User roles
 gem 'petergate', '~> 1.9'
-
-gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 
 # Pagination
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
@@ -83,3 +82,6 @@ gem 'cocoon', '~> 1.2', '>= 1.2.9'
 gem 'gritter', '~> 1.2'
 
 gem 'twitter', '~> 6.2'
+
+# No-sql database (persistet hashes)
+gem 'redis', '~> 4.0', '>= 4.0.2'
