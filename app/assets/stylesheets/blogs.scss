@@ -170,9 +170,23 @@ h6, .h6 {
 }
 
 /*
- * Custom styles
- */
+* Custom styles
+*/
 
- .social-links li a {
-   font-size: 1.5rem;
- }
+.social-links li a {
+ font-size: 1.5rem;
+}
+
+.comment-card > .card {
+  margin-top: 15px;
+}
+
+.comment-attribution {
+  font-size: .8em;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+.comment-name {
+  font-weight: bold;
+}
