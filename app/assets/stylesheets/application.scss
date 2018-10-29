@@ -57,7 +57,7 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 2rem;
+  padding: .5rem;
 }
 
 
@@ -237,4 +237,8 @@ body {
   a {
     color: blue;
   }
+}
+
+.card-block {
+  margin: 5px 0;
 }
