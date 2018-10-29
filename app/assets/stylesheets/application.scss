@@ -228,7 +228,7 @@ body {
 
 .app-card-container {
   color: #000;
-  margin-top: 20px;
+  margin: 20px 0;
 
   .card {
     padding: 10px;
@@ -239,6 +239,7 @@ body {
   }
 }
 
-.card-block {
+.card-block,
+.skill {
   margin: 5px 0;
 }
