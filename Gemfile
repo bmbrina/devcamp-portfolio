@@ -85,3 +85,7 @@ gem 'twitter', '~> 6.2'
 
 # No-sql database (persistet hashes)
 gem 'redis', '~> 4.0', '>= 4.0.2'
+
+# Markdown integration
+gem 'redcarpet', '~> 3.4'
+gem 'coderay', '~> 1.1', '>= 1.1.1'
