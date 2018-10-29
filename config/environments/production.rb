@@ -88,4 +88,9 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # Action cable whitelist
+  config.action_cable.allowed_request_origins = ['https://bmb-devcamp-portfolio.herokuapp.com', 'http://bmb-devcamp-portfolio.herokuapp.com']
+  # Hast to match routes.rb
+  config.action_cable.url = "wss://bmb-devcamp-portfolio.herokuapp.com/cable"
 end
