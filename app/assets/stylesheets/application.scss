@@ -225,3 +225,16 @@ body {
     color: green;
   }
 }
+
+.app-card-container {
+  color: #000;
+  margin-top: 20px;
+
+  .card {
+    padding: 10px;
+  }
+
+  a {
+    color: blue;
+  }
+}
